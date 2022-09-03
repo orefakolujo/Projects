@@ -1,0 +1,217 @@
+html{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.navigation{
+    background-color: black;
+    margin-bottom: 2em;
+}
+
+.navi-container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    min-height: 3em;
+}
+
+.kubera{
+    max-width: 7%;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+}
+
+.nav-links-sign-up{
+    color: white;
+    text-decoration: none;
+    padding: 7px 13px;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.content{
+    margin: auto;
+    width: 70%;
+}
+
+.top-post-image-div{
+    background-image: url(./images/top-post-image.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    background-position: 50% 50%;
+}
+
+.top-post-image{
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+}
+
+h1{
+    font-size: 2.5rem;
+    width: 70%;
+    margin-bottom: 0px;
+}
+
+.post-text{
+    width: 70%;
+    font-weight: 100;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+.author{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+
+.other-posts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.post{
+    flex: 1;
+    flex-basis: 25%;
+    max-width: 30%;
+    padding: 20px 25px 20px 0px;
+}
+
+.post-thumbnail-1{
+    background-image: url(./images/image-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.post-thumbnail-2{
+    background-image: url(./images/image-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.post-thumbnail-3{
+    background-image: url(./images/image-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.post-thumbnail-4{
+    background-image: url(./images/image-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.post-thumbnail-5{
+    background-image: url(./images/image-5.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.post-thumbnail-6{
+    background-image: url(./images/image-6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.post-thumbnail-7{
+    background-image: url(./images/image-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.post-thumbnail-8{
+    background-image: url(./images/image-8.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.post-thumbnail-9{
+    background-image: url(./images/image-9.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    min-height: 200px;
+}
+
+.chat-button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+}
+
+.chat{
+    max-width: 100%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 3em 0 5em 0;
+}
+
+.footer-container{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer-kubera{
+    max-width: 30%;
+}
+
+.kubera-footer{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.copyright{
+    font-size: 0.7rem;
+}
+
+.footer-links{
+    font-size: 00.85rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+}

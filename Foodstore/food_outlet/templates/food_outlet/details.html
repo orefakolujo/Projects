@@ -1,0 +1,16 @@
+{% extends 'food_outlet/base.html' %}
+
+{% block title %}{{name}} Detail Page{% endblock title %}
+
+{% block content %}
+    <h1>{{name}}</h1>
+    <h2>By {{chef}}</h2>
+    <p>The food has a rating of {{rating}} and 
+        {% if is_sweet %}
+            is delicious
+        {% else %}
+            is not delicious.
+        {% endif %}
+    </p>
+</ul>
+{% endblock content %}

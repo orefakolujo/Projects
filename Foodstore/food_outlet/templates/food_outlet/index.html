@@ -1,0 +1,13 @@
+{% extends 'food_outlet/base.html' %}
+
+{% block title %}
+    The Title Works
+{% endblock title %}
+
+{% block content %}
+    <ul>
+        {% for food in food  %}
+            <a href="{% url 'details_page' food.slug %}"><li>{{food.name}} ({{food.rating}})</li></a>
+        {% endfor %}
+    </ul>
+{% endblock content %}
